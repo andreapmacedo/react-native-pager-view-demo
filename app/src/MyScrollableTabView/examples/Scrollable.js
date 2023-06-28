@@ -2,6 +2,8 @@ import React from 'react';
 import { Text } from 'react-native';
 import { Constants } from 'expo';
 import ScrollableTabView, { ScrollableTabBar } from 'react-native-scrollable-tab-view';
+// var ScrollableTabView = require('react-native-scrollable-tab-view');
+// var CustomTabBar = require('./CustomTabBar');
 
 class Scrollable extends React.Component {
   render() {
