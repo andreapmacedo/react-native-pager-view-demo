@@ -1,19 +1,19 @@
-import { StatusBar } from 'expo-status-bar';
-import React from 'react';
-import { StyleSheet, Text, View } from 'react-native';
-import MyPager from './src/MyPage';
+// import { NavigationContainer } from '@react-navigation/native';
+// import React from 'react';
+// import MyPagerView from './src/MyPagerView';
+// import MyAnimated from './src/MyAnimated.js';
+import MyScrollable from './src/MyScrollableTabView/index.js';
+// import FocusStateLabel from './src/WithNavigationFocus';
 
 export default function App() {
   return (
-      <MyPager />
+    // <NavigationContainer>{
+    //     <MyPagerView />
+    // }</NavigationContainer>
+    // <FocusStateLabel />
+        // <MyPagerView />
+    <MyScrollable />
+      // <MyAnimated />
+
   );
 }
-
-const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    alignItems: 'center',
-    justifyContent: 'center',
-  },
-});

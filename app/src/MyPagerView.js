@@ -2,7 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Text } from 'react-native';
 import PagerView from 'react-native-pager-view';
 
-const MyPager = () => {
+const MyPagerView = () => {
   return (
     <View style={{ flex: 1 }}>
       <PagerView style={styles.viewPager} initialPage={0}>
@@ -31,4 +31,4 @@ const styles = StyleSheet.create({
   },
 });
 
-export default MyPager;
+export default MyPagerView;
