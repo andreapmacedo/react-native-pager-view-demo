@@ -2,9 +2,9 @@
 // import React from 'react';
 // import MyPagerView from './src/MyPagerView';
 // import MyAnimated from './src/MyAnimated.js';
-// import MyScrollable from './src/MyScrollableTabView/index.js';
 // import FocusStateLabel from './src/WithNavigationFocus';
 import MyCollapsible from './src/MyCollapsibleTabView/index.js';
+// import MyScrollable from './src/MyScrollableTabView/index.js';
 
 export default function App() {
   return (
